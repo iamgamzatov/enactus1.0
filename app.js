@@ -19,7 +19,7 @@
 const D = window.SITE_DATA;
 const app = document.getElementById("app");
 
-const JOIN_API_URL = "https://enactus-backend-uzov.onrender.com";
+const JOIN_API_URL = "https://enactus-backend-uzov.onrender.com/api/join";
 const ALL_TAG = "Все";
 const IMPACT_ICONS = ["rocket", "users", "heart", "leaf"];
 
