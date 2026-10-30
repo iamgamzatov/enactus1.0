@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" preserveAspectRatio="xMaxYMax meet"><defs>
+<linearGradient id="fm" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset=".22" stop-color="#fff"/></linearGradient>
+<mask id="fade"><rect width="1000" height="720" fill="url(#fm)"/></mask>
+<linearGradient id="st" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e5127f"/><stop offset="1" stop-color="#8f0049"/></linearGradient>
+<linearGradient id="mt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffa6d2"/><stop offset="1" stop-color="#ffe6f2" stop-opacity="0"/></linearGradient></defs>
+<polygon points="1000,20 1000,430 600,650 700,470" fill="url(#st)"/>
+<polygon points="1000,0 1000,60 930,140" fill="#f22880" opacity=".8"/>
+<g mask="url(#fade)"><g transform="translate(-150,20) scale(1.08)"><polygon points="40,540 250,330 300,385 400,268 452,300 500,248 592,352 645,322 790,540" fill="url(#mt)"/>
+<polygon points="400,268 348,336 395,322 426,346 452,300" fill="#fff" opacity=".95"/>
+<polygon points="500,248 450,326 492,312 522,338 560,318 592,352" fill="#fff" opacity=".95"/>
+<polygon points="250,330 214,376 250,366 280,388 300,385" fill="#fff" opacity=".9"/></g></g>
+<polygon points="180,720 400,540 520,720" fill="#a8005a"/><polygon points="400,540 640,590 520,720" fill="#e0197f"/>
+<polygon points="640,590 1000,450 1000,720 520,720" fill="#c9006b"/><polygon points="640,590 820,500 1000,450 960,525 760,585" fill="#f2549a" opacity=".8"/>
+<ellipse cx="760" cy="585" rx="230" ry="20" fill="#4d0027" opacity=".3"/></svg>

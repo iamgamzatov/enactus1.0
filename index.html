@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#d50062" />
+    <meta
+      name="description"
+      content="Enactus IUCA — студенческая команда социального предпринимательства Международного университета Центральной Азии."
+    />
+    <title>Enactus IUCA — превращаем идеи в реальные изменения</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrap nav">
+        <a class="brand" href="#home" aria-label="Enactus IUCA — главная"
+          ><img
+            src="assets/brand-light.png"
+            alt="Enactus и фирменная лягушка"
+          /><span>International University<br />of Central Asia</span></a
+        ><button
+          id="menuBtn"
+          class="menu-btn"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <nav id="mainNav" aria-label="Основная навигация">
+          <a href="#about" data-nav="about">О нас</a
+          ><a href="#projects" data-nav="projects">Проекты</a
+          ><a href="#team" data-nav="team">Команда</a
+          ><a href="#events" data-nav="events">События</a
+          ><a href="#partners" data-nav="partners">Партнёры</a
+          ><a href="#contacts" data-nav="contacts">Контакты</a
+          ><a href="#join" class="nav-cta">Присоединиться ↗</a
+          ><span class="lang">RU ⌄</span>
+        </nav>
+      </div>
+    </header>
+    <main id="app" tabindex="-1"></main>
+    <footer class="footer">
+      <div class="wrap footer-grid">
+        <div>
+          <img
+            src="assets/brand-light.png"
+            alt="Enactus IUCA"
+            class="footer-logo"
+          />
+        </div>
+        <div>
+          <b>Навигация</b><a href="#about">О нас</a
+          ><a href="#projects">Проекты</a><a href="#team">Команда</a
+          ><a href="#events">События</a>
+        </div>
+        <div>
+          <b>Возможности</b><a href="#join">Присоединиться</a
+          ><a href="#partners">Партнёры</a
+          ><a href="#partners">Поддержать команду</a
+          ><a href="#join">Контакты</a>
+        </div>
+        <div class="footer-end">
+          <div class="socials">
+            <a href="https://www.instagram.com/enactus.iuca.kg" aria-label="соцсеть" class="soc"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg></a>
+                
+            
+          </div>
+          <p>
+            Enactus IUCA<br /><small
+              >© <span id="year"></span> Enactus IUCA. Все права
+              защищены.</small
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="site-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
